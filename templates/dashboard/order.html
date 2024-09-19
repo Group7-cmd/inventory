@@ -1,0 +1,47 @@
+{% extends 'partials/base.html' %}
+{% block title %}Order Page{% endblock %}
+
+{% block content %}
+{% include 'partials/topside.html' %}
+<div class="row my-4">
+    <div class="col-md-4"></div>
+    <div class="col-md-8">
+        <table class="table bg-white">
+            <thead class="bg-info text-white">
+                <tr>
+                    <th scope="col">Product</th>
+                    <th scope="col">Category</th>
+                    <th scope="col">Serial Number</th>
+                    <th scope="col">Quantity</th>
+                    <th scope="col">Unit Price</th>
+                    <th scope="col">Total Price</th>
+                    <th scope="col">Ordered by</th>
+                    <th scope="col">Status</th>
+                    <th scope="col">Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for order in order %}
+                <tr>
+                    <td>{{ order.name.name }}</td>
+                    <td>{{ order.name.category }}</td>
+                    <td>{{ order.name.serial_number }}</td>
+                    <td>{{ order.order_quantity }}</td>
+                    <td>{{ order.name.unit_price }}</td>
+                    <td>{{ order.total_price }}</td>
+                    <td>{{ order.employee.username }}</td>
+                    <td>{{ order.get_status_display }}</td>
+                    <td>
+                        {% if order.status == 'pending' %}
+                        <a href="{% url 'order-accept' order.id %}">Accept</a>
+                        <a href="{% url 'order-deny' order.id %}">Deny</a>
+                        {% endif %}
+                    </td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+</div>
+
+{% endblock %}

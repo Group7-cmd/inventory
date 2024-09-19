@@ -1,0 +1,12 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\dashboard",
+    "\\dashboard\\migrations",
+    "\\dashboard\\__pycache__",
+    "\\templates",
+    "\\templates\\dashboard",
+    "\\templates\\user"
+  ],
+  "PreviewInSolutionExplorer": false
+}
