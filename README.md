@@ -26,7 +26,8 @@ Ensure you have the following installed on your system:
 
 1. **Clone the repository:**
 
-   ```bash git clone https://github.com/Group7-cmd/inventory.git
+   ```bash
+   git clone https://github.com/Group7-cmd/inventory.git
    cd Inventory-Management
    ```
 
