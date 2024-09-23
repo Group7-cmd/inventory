@@ -26,8 +26,7 @@ Ensure you have the following installed on your system:
 
 1. **Clone the repository:**
 
-   ```bash
-  https://github.com/Group7-cmd/inventory.git
+   ```bash git clone https://github.com/Group7-cmd/inventory.git
    cd Inventory-Management
    ```
 
@@ -83,26 +82,4 @@ Additional requirements can be found in the `requirements.txt` file.
 
 By default, the project uses SQLite. You can change the database settings in `inventoryproject/settings.py`.
 
-## Contributing
 
-Contributions are welcome! Please follow these steps to contribute:
-
-1. Fork the repository.
-2. Create a new branch for your feature or bug fix.
-3. Make your changes and commit them with descriptive commit messages.
-4. Push your changes to your fork.
-5. Create a pull request on the main repository.
-
-## License
-
-This project is licensed under the MIT License
-
-## Contact
-
-For questions, suggestions, or contributions, feel free to reach out 
-
-
-### Customization
-
-Feel free to customize this template to better fit your project and include any additional information you find necessary.
-"# inventory" 
