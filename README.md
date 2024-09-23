@@ -14,11 +14,6 @@ This Inventory Management System is a web application built using Django that al
 - **User Authentication**: Secure login and user management.
 - **Responsive Design**: User-friendly interface accessible on various devices.
 
-## Getting Started
-
-Follow these steps to get the project up and running on your local machine for development and testing purposes.
-
-### Prerequisites
 
 Ensure you have the following installed on your system:
 
@@ -32,7 +27,7 @@ Ensure you have the following installed on your system:
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/ZahirSeid/Inventory-Management.git
+  https://github.com/Group7-cmd/inventory.git
    cd Inventory-Management
    ```
 
