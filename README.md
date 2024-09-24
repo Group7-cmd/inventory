@@ -28,7 +28,7 @@ Ensure you have the following installed on your system:
 
    ```bash
    git clone https://github.com/Group7-cmd/inventory.git
-   cd Inventory-Management
+   cd Inventory
    ```
 
 2. **Create a virtual environment (optional but recommended):**
